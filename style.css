@@ -1,0 +1,32 @@
+body {
+	background: #283c86;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: "Roboto", sans-serif;
+}
+span {
+	font-weight: bold;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 12px;
+}
+
+.status_auto, .status_auto-col, .status_auto-col-first {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.manage_block {
+	display: grid;
+}
+.manage_block-btn {
+	display: grid;
+	grid-column-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.manage_block-btn-col, .manage_block-btn-col-do, .manage_block-btn-col-2 {
+	display: grid;
+	grid-row-gap: 5px;
+}
